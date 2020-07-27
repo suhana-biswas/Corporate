@@ -1,0 +1,356 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1{
+margin-left: 40px;
+margin-top: 40px;
+font-weight: bolder;
+font-size: 32px;
+}
+
+.fonts 
+{
+    font-size: 16px;
+    margin-top: -23px;
+    margin-left: 20px;
+    text-align: left;
+    font-family:roboto;
+    
+}
+hr
+{
+    width: 552px;
+    height: 3px;
+    margin-top: -14px;
+    z-index: 3;
+    position: relative;
+    margin-left: 15px;
+}
+
+.lg
+{
+    z-index: 1;
+    margin-top: -90px;
+    margin-left: 400px;
+    position: relative;
+    height: 130px;
+    width: 150px;
+    background-color: #fff;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-top: 13px;
+    padding-bottom: 10px;
+}
+
+.heading
+{
+color: red;
+   margin-top: 120px;
+   margin-left: 37px;
+   font-size: 45px;
+   font-style: bold;
+   font-weight: bolder;
+
+}
+
+#one
+{
+    color: red;
+}
+#two
+{
+    color: royalblue;
+}
+#three
+{
+    color: #41BF33;
+}
+#four
+{
+    color: #EFD72B;
+}
+.container 
+{
+    position: relative;
+    width: 1200px;
+    height: 450px;
+    margin: 10px auto;
+    background: none;
+}
+
+.container1 
+{
+    position: absolute;
+    width: 1200px;
+    height: 450px;
+    margin-top: 1200px;
+    margin-left: 160px;
+    background: none;
+}
+
+img{
+    height: 120px;
+    width: 100px;
+    margin-left: 10px;
+}
+
+.container1  .box
+{
+    position: relative;
+    width: 180px;
+    height: 180px;
+    background: #fff;
+    float: left;
+    margin: 25px 15px 15px 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: left;
+    z-index: 0;
+}    
+#lod
+{
+    height: 80px;
+    width: 130px;
+    margin-left: -3px;
+    margin-top: 25px;
+}
+#rel
+{
+    height: 90px;
+    width: 110px;
+}
+#ame
+{
+    height: 150px;
+    width: 160px;
+    margin-left: -10px;
+    margin-top: -20px;
+}
+#lil
+{
+    height: 140px;
+    width: 150px;
+    margin-left: -15px;
+}
+#fou
+{
+    width: 130px;
+    height: 60px;
+    margin-top: 30px;
+}
+#jwm
+{
+    width: 120px;
+    height: 50px;
+    margin-top: 30px;
+}
+#woc
+{
+    width: 150px;
+    height: 180px;
+    margin-top: -20px;
+    margin-left: -5px;
+}
+#hir
+{
+    width: 150px;
+    margin-left: -10px;
+}
+#text
+{
+    background-color: #EBEEEE;
+    height: 70px;
+    width: 200px;
+    margin-top: -10px;
+    margin-bottom: 50px;
+    font-weight: normal;
+}
+.container  .box
+{
+    position: relative;
+    width: 550px;
+    height: 480px;
+    background: #EBEEEE;
+    float: left;
+    margin: 25px 15px 15px 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: left;
+    z-index: 0;
+    
+}
+
+.container  .box .fonts
+{
+    size: 30px;
+    color: #000;
+    text-align: left;
+    padding: 20px;
+}
+
+
+.container  .box .content
+{
+    position: absolute;
+    top: 100%;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    opacity: 0;
+}  
+
+
+.container  .box .content h3{
+    margin: 0 0 10px;
+    padding: 0;
+    color: #000;
+    font-size: 18px;
+}
+
+.container .box .content p
+{
+    margin: 0;
+    padding: 0;
+    color: #000;
+} 
+
+
+/*carousel*/
+
+.carimg {
+      
+    height: 350px;
+    width: 450px;
+    margin-left: 0px;
+    float: left;
+    
+}
+.car2img {
+    width: 80px;
+	height: 80px;
+    border-radius: 50%;
+    float: left;
+    border: none;
+    position: relative;
+    margin-left: 60px;
+    margin-top: 50px;
+    margin-right: 25px;
+}
+
+.quotecnt{
+    float: left;
+    margin-top: 60px;
+    text-align: left;
+    
+}
+
+.rightbox {
+    background: #EBEEEE;
+    height: 350px;
+    
+    
+}
+.carousel .fa-quote-left{
+    color: royalblue;
+    font-size: 2.6rem;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    
+}
+.carousel {
+    position: relative;
+    top:1100px;
+    padding: 0 70px;
+    margin-left: -25px;
+    width: 1200px;
+}
+.carousel .carousel-item {
+	color: #999;
+	font-size: 14px;
+	text-align: center;
+	overflow: hidden;
+	min-height: 290px;
+}
+
+.carousel .testimonial {
+	padding-top: 80px;
+    padding-right: 35px;
+    margin-left: 480px;
+    text-align: left;
+    font-size:20px;
+    font-weight: bold;
+    font-family: roboto;
+    color: #0f0f0f;
+}
+.carousel .overview {	
+	font-style: italic;
+    padding: 0;
+    margin: 0;
+}
+.lead {
+    margin: none;
+    font-size: .8rem;
+    padding: 0;
+    margin: 0;
+}
+.carousel .overview i {
+	font-weight: 600;
+	color: royalblue;
+}
+
+
+.carousel-control-prev, .carousel-control-next {
+	width: 40px;
+	height: 40px;
+	margin-top: -20px;
+	top: 50%;
+	background: none;
+}
+.carousel-control-prev i, .carousel-control-next i {
+	font-size: 68px;
+	line-height: 42px;
+	position: absolute;
+	display: inline-block;
+	color: rgba(0, 0, 0, 0.8);
+	text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+.carousel-indicators {
+	bottom: -60px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 8px;
+	height: 8px;
+	margin: 1px 3px;
+	border-radius: 50%;
+	border: none;
+    
+}
+.carousel-indicators li {	
+	background: #999;
+	border-color: transparent;
+	box-shadow: inset 0 2px 1px r
+}
+.carousel-indicators li.active {	
+	background: #555;		
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+
+.box1
+{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: #101111;
+    float: left;
+    margin: 25px 15px 15px 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: left;
+    
+}
